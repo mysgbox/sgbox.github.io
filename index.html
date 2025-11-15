@@ -169,6 +169,17 @@
             transform: scale(1.15);
             opacity: 1;
         }
+
+@media (pointer: coarse) {
+    #cursor-dot, #cursor-outline {
+        display: none;
+    }
+
+    body {
+        cursor: auto;
+    }
+}
+
 </style>
 </head>
 <body class="overflow-x-hidden">
